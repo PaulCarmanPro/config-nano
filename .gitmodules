@@ -1,0 +1,3 @@
+[submodule "home/.config/nano/nano-colors"]
+	path = home/.config/nano/nano-colors
+	url = https://github.com/scopatz/nanorc.git

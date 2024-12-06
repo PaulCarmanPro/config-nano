@@ -1,0 +1,23 @@
+# ~/.nanorc
+include ~/.config/nano/nano-colors/*.nanorc # colors from github.com/scopatz
+
+# --- Create your own keyboard --- @see info nanorc
+set atblanks
+set autoindent
+set backupdir ~/.config/nano/backup
+set linenumbers
+set multibuffer
+set quickblank
+set regexp
+set tabsize 2
+
+bind ^Space mark main
+#bind ^C copy
+bind ^F whereis main
+bind ^J gotoline main
+bind ^S writeout main
+#bind ^V paste
+#bind ^X cut
+#bind ^Z undo main
+#bind S^Z redo main
+bind M-A nohelp main
